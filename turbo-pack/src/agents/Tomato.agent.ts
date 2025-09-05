@@ -98,7 +98,7 @@ class TomatoAgentImpl implements BaseAgent {
     }
   }
 
-  private getAtlasComment(topic: string, _payload: any): string {
+  private getAtlasComment(_topic: string, _payload: any): string {
     const atlasComments = [
       'Another tile in the grand tapestry of mediocrity.',
       'Building connections. How very social network of you.',
